@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria Fotograficzna</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="terminal">
+        <div class="terminal-header">
+            <div class="buttons">
+                <span class="button red"></span>
+                <span class="button yellow"></span>
+                <span class="button green"></span>
+            </div>
+            <div class="title-bar">
+                <a href="/" class="title-link">robertmarek.pl</a>
+            </div>
+        </div>
+        <section id="fotografia">
+            <h2>Galeria Fotograficzna</h2>
+            <div class="gallery">
+                <img src="images\_M4A3996.jpg" alt="Zdjęcie 1" class="gallery-item">
+                <img src="images\_M4A4026.jpg" alt="Zdjęcie 2" class="gallery-item">
+                <img src="images\_M4A4028.jpg" alt="Zdjęcie 3" class="gallery-item">
+                <img src="images\_M4A4037.jpg" alt="Zdjęcie 4" class="gallery-item">
+                <img src="images\_M4A4041.jpg" alt="Zdjęcie 5" class="gallery-item">
+                <img src="images\_M4A4061.jpg" alt="Zdjęcie 6" class="gallery-item">
+                <!-- Dodaj więcej zdjęć w folderze 'images' -->
+            </div>
+            <!-- Modal -->
+            <div id="modal" class="modal">
+                <span id="close-modal">&times;</span>
+                <img id="modal-img" class="modal-content">
+                <div id="modal-caption"></div>
+            </div>
+        </section>
+        <a href="index.html" class="button-link">Powrót na stronę główną</a>
+    </div>
+    <script src="script.js" defer></script>
+</body>
+</html>
